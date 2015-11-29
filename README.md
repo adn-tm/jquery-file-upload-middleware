@@ -13,7 +13,8 @@ Usage:
 
 ```javascript
     var express = require("express"),
-        upload = require('jquery-file-upload-middleware');
+        upload = new (require('jquery-file-upload-middleware'))();
+    // This point must be changed, when this fork is used
 
     var app = express();
 
